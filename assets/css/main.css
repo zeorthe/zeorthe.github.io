@@ -2649,7 +2649,7 @@ input[type="radio"] + label:before {
     top: 20%;
   }
   .icon.solid.alt.major.c1 {
-    background-position: 0vh 7.5vw;
+    background-position: 0vh 9vw;
   }
 }
 
@@ -2665,14 +2665,14 @@ input[type="radio"] + label:before {
   text-decoration: none;
   background-image: url("images/client2.jpg");
   background-repeat: no-repeat;
-  background-position: 1.8vh 0vw;
+  background-position: 2vh 0vw;
 }
 
 .icon.major.alt.c3 {
   text-decoration: none;
   background-image: url("images/client3.png");
   background-repeat: no-repeat;
-  background-position: 3vh 0vw;
+  background-position: 3.6vh 0vw;
 }
 
 .icon.major.alt:before {
