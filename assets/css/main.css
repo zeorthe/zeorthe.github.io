@@ -2643,6 +2643,16 @@ input[type="radio"] + label:before {
   font-size: 2.25em;
 }
 
+@media screen and (max-width: 800px) {
+  .icon.major.alt.c1 {
+    position: relative;
+    top: 20%;
+  }
+  .icon.solid.alt.major.c1 {
+    background-position: 0vh 7.5vw;
+  }
+}
+
 .icon.major.alt.c1 {
   text-decoration: none;
   background-image: url("images/client1.jpg");
@@ -4151,8 +4161,7 @@ body.is-touch #banner {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
   }
-
-  #titleBar .toggle:before {
+  fcontainer #titleBar .toggle:before {
     background: #dd4130;
     color: rgba(255, 255, 255, 0.5);
     content: "\f0c9";
