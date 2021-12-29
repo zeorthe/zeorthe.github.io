@@ -1,4 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:700");
+@media screen and (max-width: 770px) {
+  .animated-title > div,
+  .animated-title > div div,
+  .animated-title > div div span {
+    max-width: 100%;
+    font-size: 8vmin;
+  }
+}
+@media screen and (max-width: 770px) {
+  .animated-title > div.text-bottom div {
+    max-width: 30%;
+  }
+}
 
 .animated-title {
   color: rgb(202, 199, 199);
@@ -8,7 +21,7 @@
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 150vmin;
+  width: 140vmin;
 }
 .animated-title > div {
   height: 50%;
@@ -21,11 +34,11 @@
   padding: 3vmin 0;
   position: absolute;
 }
-/* .animated-title > div div span {
+.animated-title > div div span {
   display: block;
   margin-top: 10px;
   text-align: center;
-} */
+}
 .animated-title > div.text-top {
   border-bottom: 0.5vmin solid rgb(202, 200, 200);
   top: 0;
@@ -46,7 +59,7 @@
 }
 .animated-title > div.text-bottom div {
   animation: showBottomText 1.5s;
-  animation-delay: 2.5s;
+  animation-delay: 1.2s;
   animation-fill-mode: forwards;
   top: 0;
   transform: translate(0, -100%);
@@ -58,9 +71,9 @@
     transform: translate3d(0, 100%, 0);
   }
   20%,
-  60% {
+  /* 60% {
     transform: translate3d(0, 50%, 0);
-  }
+  } */
   100% {
     transform: translate3d(0, 0, 0);
   }
