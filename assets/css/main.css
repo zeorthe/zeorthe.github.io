@@ -4399,3 +4399,11 @@ body.is-touch #banner {
   font-size: 36px;
   font-weight: 100;
 }
+@media screen and (max-width: 770px) {
+  #parallax .p-title p {
+    padding: 1;
+    position: relative;
+    right: 20%;
+    width: 200px;
+  }
+}
